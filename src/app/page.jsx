@@ -20,7 +20,7 @@ export default function Home() {
     }, []);
     return (
         <div className="flex w-full justify-center items-center h-screen">
-            <span className="text-[20rem]">{time}</span>
+            <span className="text-8xl md:text-[10rem] lg:text-[20rem]">{time}</span>
         </div>
     );
 }
